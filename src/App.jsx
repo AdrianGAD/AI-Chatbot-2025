@@ -1,4 +1,4 @@
-import { companyInfo } from "./CompanyInfo";
+import companyInfo from "./CompanyInfo"; 
 import ChatbotIcon from "./components/ChatbotIcon"
 import ChatForm from "./components/ChatForm"
 import ChatMessage  from "./components/ChatMessage";
