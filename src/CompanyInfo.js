@@ -1,4 +1,4 @@
-export const companyInfo = 
+export const CompanyInfo = 
 `Welcome to Dr. Anna Fischer's General Medical Practice in Berlin.
 
 We provide comprehensive care in general medicine, preventive health, and minor emergency treatment. Our mission is to offer empathetic, evidence-based care to patients of all ages.
@@ -27,3 +27,4 @@ Friedrichstraße 100, 10117 Berlin
 www.praxis-fischer.de
 
 `
+export default CompanyInfo;
