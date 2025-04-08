@@ -1,14 +1,14 @@
-import CompanyInfo from "./CompanyInfo";
 import ChatbotIcon from "./components/ChatbotIcon"
 import ChatForm from "./components/ChatForm"
 import ChatMessage  from "./components/ChatMessage";
+import CompanyInfo from "./CompanyInfo";
 import React, {  useEffect, useRef, useState } from 'react'
 
 const App = () => {
   const [chatHistory, setChatHistory] = useState([{
     hideInChat: true,
     role: "model",
-    text: companyInfo
+    text: CompanyInfo
   }]);
   const [showChatbot, setShowChatbot] = useState(false);
 
